@@ -2,6 +2,8 @@
 
 from particle import Particle
 
+# # para mais informações sobre o pacote --> https://pypi.org/project/particle/ 
+
 Barion_Lambda = Particle.findall('Lambda')[0]
 Barion_Omega_minus = Particle.findall('Omega')[0]
 Lepton_tau_minus = Particle.findall('t')[2]
@@ -21,3 +23,4 @@ sigma = ( 1 ) / ( (1/sigma_Barion_Lambda**2) +
 (1/sigma_Meson_B_neutral**2) )
 
 mass_media = ( (sigma/sigma_Barion_Lambda)**2) * Barion_Lambda.mass + ( (sigma/sigma_Barion_Omega_minus)**2) * Barion_Omega_minus.mass + ( (sigma/sigma_Lepton_tau_minus)**2) * Lepton_tau_minus.mass + ( (sigma/sigma_Meson_D_plus)**2) * Meson_D_plus.mass + ( (sigma/sigma_Meson_B_neutral)**2) * Meson_B_neutral.mass 
+
