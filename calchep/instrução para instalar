@@ -6,7 +6,7 @@ com que baixe o programa compactado. Na pasta de Downloads sua (onde se encontra
 tar -zxvf calchep_3.8.7.tgz
 cd calchep_3.8.7
 make
-./mkWORKDir <path>/calchep
+./mkWORKdir <path>/calchep
 
 para abrir o programa no linux -->
 ./calchep &
