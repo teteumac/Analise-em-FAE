@@ -1,0 +1,12 @@
+instalação da versão 3.8.7 --> 
+
+vai no site: https://theory.sinp.msu.ru/~pukhov/calchep.html e clica em "Current version 3.8.7" na parte que esta escrita "Code download". Isso vai fazer
+com que baixe o programa compactado. Na pasta de Downloads sua (onde se encontra o programa), segue o seguinte comando :
+
+tar -zxvf calchep_3.8.7.tgz
+cd calchep_3.8.7
+make
+./mkWORKDir <path>/calchep
+
+para abrir o programa no linux -->
+./calchep &
